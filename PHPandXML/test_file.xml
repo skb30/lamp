@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cars>
+   <make name="BMW">
+      <model>M5</model>
+   </make>
+   <make name="Honda">
+      <model>Accord</model>
+   </make>
+   <make name="Toyota">
+     <model>Prius</model>
+   </make>
+</cars>

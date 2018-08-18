@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<GuestBook>
+  <NewEntry>
+    <Name>Taral</Name>
+    <Email>taraloza@gmail.com</Email>
+    <Comments>comments 1234</Comments>
+  </NewEntry>
+  <NewEntry>
+    <Name>Taral</Name>
+    <Email>taraloza@gmail.com</Email>
+    <Comments>comments 667788</Comments>
+  </NewEntry>
+<NewEntry>
+  <Name>Scott Barth</Name>
+  <Email>sbarth@gmail.com</Email>
+  <Comments>Hello Vietnam</Comments>
+</NewEntry>
+<NewEntry>
+  <Name>Bradley Jeffries</Name>
+  <Email>sbarth@gmail.com</Email>
+  <Comments>not really</Comments>
+</NewEntry>
+<NewEntry><Name>Bradley Jeffries</Name><Email>sbarth@gmail.com</Email><Age>sbarth@gmail.com</Age><Comments>not really</Comments></NewEntry><NewEntry><Name>JDK</Name><Email>j@g.com</Email><Age>j@g.com</Age><Comments>blah</Comments></NewEntry><NewEntry><Name>JDK</Name><Email>j@g.com</Email><Age>70</Age><Comments>blah</Comments></NewEntry></GuestBook>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<GuestBook>
+  <NewEntry><Name>Taral</Name>
+  <Email>taraloza@yahoo.com</Email>
+  <Comments>Test</Comments>
+</NewEntry>
+<NewEntry>
+  <Name>Taral</Name>
+  <Email>taraloza@yahoo.com</Email>
+  <Comments>Test 2</Comments>
+</NewEntry>
+<NewEntry>
+  <Name>Taral</Name>
+  <Email>taraloza@yahoo.com</Email>
+  <Comments>Test 3</Comments>
+</NewEntry>
+<NewEntry>
+  <Name>Taral</Name>
+  <Email>taraloza@yahoo.com</Email>
+  <Comments>Test 5</Comments>
+</NewEntry>
+<NewEntry>
+  <Name>Taral</Name>
+  <Email>taraloza@yahoo.com</Email>
+  <Comments>Test 6</Comments>
+</NewEntry>
+<NewEntry>
+  <Name>Taral</Name>
+  <Email>taraloza@yahoo.com</Email>
+  <Comments>test 55555555555</Comments>
+</NewEntry>
+<NewEntry>
+  <Name>Taral</Name>
+  <Email>taraloza@gmail.com</Email>
+  <Comments>comment 234</Comments>
+</NewEntry>
+<NewEntry>
+  <Name>Scott Barth</Name>
+  <Email>sbarth@gmail.com</Email>
+  <Comments>Thanks for the help!</Comments>
+</NewEntry>
+</GuestBook>

@@ -1,0 +1,128 @@
+
+body {
+    font: 100% Verdana, sans-serif;
+    color:#000;
+    background:#fff;
+}
+table {
+
+    text-align:left;
+    /* collapse the gaps between columns */
+    border-collapse:collapse;  /* not supported by IE6  */
+    border:1px solid #999;
+
+}
+
+/* style the caption tag */
+
+caption {
+
+    font-size: 1.2em;
+    font-weight: bold;
+    font-variant:small-caps;
+    letter-spacing:.2em;
+    text-align:left;
+    /*
+    caption-side: bottom;
+    padding: 0;
+    */
+
+}
+
+tfoot {
+    font-size: .7em;
+    color:#686;
+    font-style:italic;
+    text-align:right;
+}
+th, td { /* table cell padding */
+    padding:10px;
+    border-bottom: 1px solid #333;
+    font-size:.875em;
+}
+
+tr {
+   vertical-align:baseline;
+}
+
+th {
+   background: silver;
+   font-size:1em;
+}
+
+tr:nth-of-type(odd) {
+    background: lightyellow;
+}
+tr:nth-of-type(even) {
+    background: lightblue;
+}
+/* Column Styles */
+.group {
+    width:600px; /* divde into even column widths during resize */
+}
+
+
+/* add psuedo to tr in the last class (group them) */
+.last, tr:hover .last {
+
+    background:#fff;
+    padding:0;
+    color:#686;
+    border:1px solid #fff;
+}
+.first {width:80px;}
+.love {background:#f33;}
+.angel {background:#fcf;}
+.calPoly {background:#ffc;}
+
+
+/* pseudo  classes */
+tr:hover {
+
+    background:#696;
+    color: #fff;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

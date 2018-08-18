@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<cars>
+  <make name="BMW">
+    <model>M5</model>
+  </make>
+</cars>

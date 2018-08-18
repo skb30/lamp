@@ -1,0 +1,92 @@
+<!--
+    Document   : simple_html_form_example
+    Created on : Dec 7, 2008, 11:07:23 PM
+    Author     : root
+-->
+<!DOCTYPE html>
+<html lang="eu">
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+        <link rel="stylesheet" href="./tablestyles.css">
+    </head>
+    <div class="wrapper">
+      <body>
+        <div class="banner">
+          <h1> Home Page </h1>
+        </div>
+        <div class="menu">
+          <ul>
+
+            <li><a href="post_form.php">New POST</a> </li>
+            <li><a href="CreateUserDatabase.php">Login</a> </li>
+            <li><a href="#">Help</a> </li>
+            <li><a href="#">Terms and Conditions</a> </li>
+            <li><a href="#">About Us</a> </li>
+            <li><form action="search.php" method="post">
+                <p>
+                  Search <input type="text" name="Search" /><input type="submit" />
+                  <input type="reset" />
+                </p>
+            </form>
+           </li>
+          </ul>
+        </div>
+        <table>
+            <caption>Scotts List</caption>
+            <colgroup class="group">
+                <col class="sale">
+                <col class="services">
+                <col class="jobs">
+                <col class="country">
+                <col class="location">
+            </colgroup>
+            <thead>
+            <tr>
+                <th scope="col">For Sale</th>
+                <th scope="col">Services</th>
+                <th scope="col">Jobs</th>
+                <th scope="col">Country</th>
+                <th scope="col">Location</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+                    <td><a href="listItems.php?category=1">Books</a></td>
+                    <td><a href="#">Computer</a></td>
+                    <td><a href="#">Full Time</a></td>
+                    <td><a href="#">USA</a></td>
+                    <td><a href="#">Cupertino</a></td>
+
+                </tr>
+                <tr>
+
+                    <td><a href="listItems.php?category=2">Electronics</a></td>
+                    <td><a href="#">Financial</a></td>
+                    <td><a href="#">Part Time</a></td>
+                    <td><a href="#">India</a></td>
+                    <td><a href="#">Bombay</a></td>
+
+                </tr>
+                <tr>
+
+                    <td><a href="#">Household</a></td>
+                    <td><a href="#">Lessions</a></td>
+                    <td><a href="#">Volunteering</a></td>
+                    <td><a href="#">Germany</a></td>
+                    <td><a href="#">Frankfurt</a></td>
+
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="last">Copyright &copy; 2016</td>
+                </tr>
+            </tfoot>
+
+        </table>
+      </body>
+  </div>
+</html>
