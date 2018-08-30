@@ -1,0 +1,30 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form action="addBook.php" method="post">
+            Book Title: <input type="text" name="bookTitle"><br>
+            <br>
+            Lead Author: <input type="text" name="leadAuthor"><br>
+            <br>
+            Year Published: <input type="text" name="yearPublished"><br>
+            <br>
+            Rating: <select name="rating">
+                <option value="1.0">1.0</option>
+                <option value="2.0">2.0</option>
+                <option value="3.0" selected="selected">3.0</option>
+                <option value="4.0">4.0</option>
+                <option value="5.0">5.0</option>
+            </select>
+            <br>
+            <input type="submit" value="Add Books">
+        </form>
+    </body>
+</html>

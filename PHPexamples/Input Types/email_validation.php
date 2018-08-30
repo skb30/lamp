@@ -6,14 +6,15 @@
 if (isset($_POST['posted'])) {
 
    $email = $_POST['email'];
-   $theresults = ereg("^[^@ ]+@[^@ ]+\.[^@ \.]+$", $email, $trashed);
-   if ($theresults) {
-      $isamatch = "Valid";
-   } else {
-      $isamatch = "Invalid";
-   }
 
-   echo "Email address validation says $email is " . $isamatch;
+    if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $isamatch = "Valid";
+
+    } else {
+        $isamatch = "Invalid";
+    }
+
+    echo "Email address validation says $email is " . $isamatch;
 }
 
 ?>
